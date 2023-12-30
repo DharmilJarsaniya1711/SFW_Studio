@@ -48,7 +48,7 @@ const Confirm = (props) => {
                 value="email"
               />
               <label className="circle" for="verifCodeEmail">
-                <img src="./../images/check.png" className="check" alt="" />
+                <img src="./../images/new/check.png" className="check" alt="" />
               </label>
               <label
                 className="medium color__gray-2 font__size--18 text__18-1024 text__18-sm text__18-xs ml-2"
@@ -68,7 +68,7 @@ const Confirm = (props) => {
                 value="phone"
               />
               <label className="circle" for="verifCodePhone">
-                <img src="./../images/check.png" className="check" alt="" />
+                <img src="./../images/new/check.png" className="check" alt="" />
               </label>
               <label
                 className="medium color__gray-2 font__size--18 text__18-1024 text__18-sm text__18-xs ml-2"

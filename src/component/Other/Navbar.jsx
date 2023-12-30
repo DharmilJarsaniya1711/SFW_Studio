@@ -4,18 +4,17 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { CartIcons, LogoIcons } from "../Icons/Icons";
 
-import Login from './../Modal/Auth/Login'
-import Register from './../Modal/Auth/Register';
-import Confirm from './../Modal/Auth/Confirm';
-import Code from "./../Modal/Auth/Code"
+import Login from "./../Modal/Auth/Login";
+import Register from "./../Modal/Auth/Register";
+import Confirm from "./../Modal/Auth/Confirm";
+import Code from "./../Modal/Auth/Code";
 import ForgotPassword from "../Modal/Auth/ForgotPassword";
 import VerificationCode from "../Modal/Auth/VerificationCode";
 import NewPassword from "../Modal/Auth/NewPassword";
 import ModalSuccess from "../Modal/Auth/ModalSuccess";
 
 const Navbar = (props) => {
-  const [toogleMenu, setToogleMenu] = useState(false)
-
+  const [toogleMenu, setToogleMenu] = useState(false);
 
   const [modalLogin, setModalLogin] = useState(false);
   const onCLickModalLogin = () => {
@@ -38,7 +37,6 @@ const Navbar = (props) => {
     }
     setModalRegister(!modalRegister);
   };
-
 
   const [modalConfirm, setModalConfirm] = useState(false);
   const onCLickModalConfirm = () => {
@@ -181,10 +179,8 @@ const Navbar = (props) => {
     }
   };
 
-
   return (
     <Fragment>
-
       <Login
         modalLogin={modalLogin}
         onCLickModalLogin={() => onCLickModalLogin()}
@@ -230,7 +226,12 @@ const Navbar = (props) => {
         onCLickSwitchModal={(e) => onCLickSwitchModal(e)}
       />
 
-      <div className={"wrapper__side-nav-mobile d-flex d-xl-none " + (toogleMenu ? "active" : "")}>
+      <div
+        className={
+          "wrapper__side-nav-mobile d-flex d-xl-none " +
+          (toogleMenu ? "active" : "")
+        }
+      >
         <div className="container">
           <div className="w-100">
             <div className="d-flex align-items-center justify-content-between mb-4">
@@ -240,13 +241,15 @@ const Navbar = (props) => {
                 class="navbar-brand font__size--24 text__24-1024 semi-bold color__white"
               >
                 <div className="d-flex align-items-center">
-                  <LogoIcons color={"#064BB4"} />
-                  <span className={"font__size--20 semi-bold ml-2 color__blue"}>Bulk<span className="normal">ing</span></span>
+                  <img src="./../images/new/Logo_light.svg" alt="" />
                 </div>
               </NavLink>
 
               <div className="d-flex align-items-center justify-content-end">
-                <NavLink to="/payment" className="position-relative wrapper__icon-cart pointer">
+                <NavLink
+                  to="/payment"
+                  className="position-relative wrapper__icon-cart pointer"
+                >
                   <div className="circle"></div>
                   <CartIcons color={"#1C1C1E"} />
                 </NavLink>
@@ -259,25 +262,61 @@ const Navbar = (props) => {
                   <span></span>
                 </div>
               </div>
-
             </div>
             <div className="menu">
-              <NavLink to="/" className="medium font__size--24 text__24-1024 color__black">Home</NavLink>
+              <NavLink
+                to="/"
+                className="medium font__size--24 text__24-1024 color__black"
+              >
+                Home
+              </NavLink>
               <hr />
-              <NavLink to="/programs" className="medium font__size--24 text__24-1024 color__black">Programs</NavLink>
+              <NavLink
+                to="/programs"
+                className="medium font__size--24 text__24-1024 color__black"
+              >
+                Programs
+              </NavLink>
               <hr />
-              <NavLink to="/trainers" className="medium font__size--24 text__24-1024 color__black">Trainers</NavLink>
+              <NavLink
+                to="/trainers"
+                className="medium font__size--24 text__24-1024 color__black"
+              >
+                Trainers
+              </NavLink>
               <hr />
-              <NavLink to="/membership" className="medium font__size--24 text__24-1024 color__black">Membership</NavLink>
+              <NavLink
+                to="/membership"
+                className="medium font__size--24 text__24-1024 color__black"
+              >
+                Membership
+              </NavLink>
               <hr />
-              <NavLink to="/contact" className="medium font__size--24 text__24-1024 color__black">Contact</NavLink>
+              <NavLink
+                to="/contact"
+                className="medium font__size--24 text__24-1024 color__black"
+              >
+                Contact
+              </NavLink>
               <hr />
-              <a href="#!" className="medium w-100 mb-3 font__size--14 btn__auth btn btn__outlined--black color__black no__opacity shadow h__white" onClick={() => onCLickModalLogin()}>Log In</a>
-              <a href="#!" className="medium w-100 font__size--14 btn__auth btn btn__green color__black  shadow " onClick={() => onCLickModalRegister()}>Sign Up</a>
+              <a
+                href="#!"
+                className="medium w-100 mb-3 font__size--14 btn__auth btn btn__outlined--black color__black no__opacity shadow h__white"
+                onClick={() => onCLickModalLogin()}
+              >
+                Log In
+              </a>
+              <a
+                href="#!"
+                className="medium w-100 font__size--14 btn__auth btn btn__green color__black  shadow "
+                onClick={() => onCLickModalRegister()}
+              >
+                Sign Up
+              </a>
             </div>
           </div>
         </div>
-      </div >
+      </div>
 
       <nav
         className="navbar navbar-expand-xl bg__black-2 wrapper__navbar position-relative z-2"
@@ -292,13 +331,11 @@ const Navbar = (props) => {
             class="navbar-brand font__size--24 text__24-1024 semi-bold color__white"
           >
             <div className="d-flex align-items-center">
-            {console.log(props.type,'44')}
-            {
-              props.type == "dark" ? <img src="./../images/new/Logo_light.svg" alt="" /> : <img src="./../images/new/Logo_dark.svg" alt="" />
-            }
-              
-              {/* <LogoIcons color={props.type == "dark" ? "#064BB4" : "white"} /> */}
-              {/* <span className={"font__size--20 semi-bold ml-2 " + (props.type == "dark" ? "color__blue" : "color__white")}>Bulk<span className="normal">ing</span></span> */}
+              {props.type == "dark" ? (
+                <img src="./../images/new/Logo_light.svg" alt="" />
+              ) : (
+                <img src="./../images/new/Logo_dark.svg" alt="" />
+              )}
             </div>
           </NavLink>
 
@@ -311,7 +348,10 @@ const Navbar = (props) => {
                 <NavLink
                   to="/"
                   exact
-                  class={"nav-link medium font__size--14 text__14-1024 opacity__7 text-capitalize hover " + (props.type == "dark" ? "color__black" : "color__white")}
+                  class={
+                    "nav-link medium font__size--14 text__14-1024 opacity__7 text-capitalize hover " +
+                    (props.type == "dark" ? "color__black" : "color__white")
+                  }
                 >
                   Home
                 </NavLink>
@@ -319,7 +359,10 @@ const Navbar = (props) => {
               <li className="nav-item">
                 <NavLink
                   to="/programs"
-                  class={"nav-link medium font__size--14 text__14-1024 opacity__7 text-capitalize hover " + (props.type == "dark" ? "color__black" : "color__white")}
+                  class={
+                    "nav-link medium font__size--14 text__14-1024 opacity__7 text-capitalize hover " +
+                    (props.type == "dark" ? "color__black" : "color__white")
+                  }
                 >
                   Programs
                 </NavLink>
@@ -327,7 +370,10 @@ const Navbar = (props) => {
               <li className="nav-item">
                 <NavLink
                   to="/trainers"
-                  class={"nav-link medium font__size--14 text__14-1024 opacity__7 text-capitalize hover " + (props.type == "dark" ? "color__black" : "color__white")}
+                  class={
+                    "nav-link medium font__size--14 text__14-1024 opacity__7 text-capitalize hover " +
+                    (props.type == "dark" ? "color__black" : "color__white")
+                  }
                 >
                   Trainers
                 </NavLink>
@@ -335,7 +381,10 @@ const Navbar = (props) => {
               <li className="nav-item">
                 <NavLink
                   to="/membership"
-                  class={"nav-link medium font__size--14 text__14-1024 opacity__7 text-capitalize hover " + (props.type == "dark" ? "color__black" : "color__white")}
+                  class={
+                    "nav-link medium font__size--14 text__14-1024 opacity__7 text-capitalize hover " +
+                    (props.type == "dark" ? "color__black" : "color__white")
+                  }
                 >
                   Membership
                 </NavLink>
@@ -343,7 +392,10 @@ const Navbar = (props) => {
               <li className="nav-item">
                 <NavLink
                   to="/contact"
-                  class={"nav-link medium font__size--14 text__14-1024 opacity__7 text-capitalize hover " + (props.type == "dark" ? "color__black" : "color__white")}
+                  class={
+                    "nav-link medium font__size--14 text__14-1024 opacity__7 text-capitalize hover " +
+                    (props.type == "dark" ? "color__black" : "color__white")
+                  }
                 >
                   Contact
                 </NavLink>
@@ -351,27 +403,48 @@ const Navbar = (props) => {
             </ul>
           </div>
 
-
-
           <div className="d-flex align-items-center ml-auto">
-            <NavLink to="/payment" className="position-relative wrapper__icon-cart pointer">
+            <NavLink
+              to="/payment"
+              className="position-relative wrapper__icon-cart pointer"
+            >
               <div className="circle"></div>
               <CartIcons color={props.type == "dark" ? "#1C1C1E" : "white"} />
             </NavLink>
             <div
               onClick={() => setToogleMenu(!toogleMenu)}
-              class={"nav__button d-xl-none position-relative flex-shrink-0 ml-4 " + (props.type == "dark" ? "dark" : '')}
+              class={
+                "nav__button d-xl-none position-relative flex-shrink-0 ml-4 " +
+                (props.type == "dark" ? "dark" : "")
+              }
             >
               <span></span>
               <span></span>
               <span></span>
             </div>
-            <a href="#!" className={"d-none d-xl-block medium font__size--14 text__14-1024 btn__auth btn no__opacity shadow  ml-4 mr-2 " + (props.type == "dark" ? "btn__outlined--black color__black h__white" : "btn__outlined--white color__white h__black")} onClick={() => onCLickModalLogin()}>Log In</a>
-            <a href="#!" className="d-none d-xl-block medium font__size--14 text__14-1024 btn__auth btn btn__green color__black  shadow " onClick={() => onCLickModalRegister()}>Sign Up</a>
+            <a
+              href="#!"
+              className={
+                "d-none d-xl-block medium font__size--14 text__14-1024 btn__auth btn no__opacity shadow  ml-4 mr-2 " +
+                (props.type == "dark"
+                  ? "btn__outlined--black color__black h__white"
+                  : "btn__outlined--white color__white h__black")
+              }
+              onClick={() => onCLickModalLogin()}
+            >
+              Log In
+            </a>
+            <a
+              href="#!"
+              className="d-none d-xl-block medium font__size--14 text__14-1024 btn__auth btn btn__green color__black  shadow "
+              onClick={() => onCLickModalRegister()}
+            >
+              Sign Up
+            </a>
           </div>
         </div>
       </nav>
-    </Fragment >
+    </Fragment>
   );
 };
 

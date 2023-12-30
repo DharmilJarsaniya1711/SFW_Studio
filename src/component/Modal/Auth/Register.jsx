@@ -41,7 +41,7 @@ const Register = (props) => {
                     className="btn btn__white btn__line-auth w-100 px-3 rounded__50 text-left normal font__size--14 text__14-1024 color__black"
                   >
                     <div className="d-flex align-items-center">
-                      <img src="./../images/google-symbol 1.png" alt="" />
+                      <img src="./../images/new/google-symbol 1.png" alt="" />
                       <span className="ml-2">Continue with Google</span>
                     </div>
                   </a>
@@ -52,7 +52,7 @@ const Register = (props) => {
                     className="btn btn__white btn__line-auth w-100 px-3 rounded__50 text-left normal font__size--14 text__14-1024 color__black"
                   >
                     <div className="d-flex align-items-center">
-                      <img src="./../images/Icon - Apple.png" alt="" />
+                      <img src="./../images/new/Icon - Apple.png" alt="" />
                       <span className="ml-2">Continue with Google</span>
                     </div>
                   </a>
@@ -94,7 +94,7 @@ const Register = (props) => {
                 value="Bike"
               />
               <label className="circle" for="vehicle1">
-                <img src="./../images/check.png" className="check" alt="" />
+                <img src="./../images/new/check.png" className="check" alt="" />
               </label>
               <label
                 className="medium color__gray-2 font__size--14 text__14-1024 text__14-1024 ml-2"

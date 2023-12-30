@@ -94,7 +94,7 @@ const Contact = () => {
                 </p>
 
                 <div className="d-flex mb-3 align-items-center">
-                  <img src="./../images/ic (1).png" alt="" />
+                  <img src="./../images/new/ic (1).png" alt="" />
                   <div className="ml-2 medium font__size--16 text__16-1024 color__black">
                     <a href="tel:+919898362004" className="text-dark">
                       {" "}
@@ -103,7 +103,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="d-flex mb-3 align-items-center">
-                  <img src="./../images/ic (3).png" alt="" />
+                  <img src="./../images/new/ic (3).png" alt="" />
                   <div className="ml-2 medium font__size--16 text__16-1024 color__black">
                     <a
                       href="mailto:sales@devoqdesign.com"
@@ -114,7 +114,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="d-flex align-items-center">
-                  <img src="./../images/ic (2).png" alt="" />
+                  <img src="./../images/new/ic (2).png" alt="" />
                   <div className="ml-2 medium font__size--16 text__16-1024 color__black">
                     111, Platinum Plaza Opp. I.O.C. petrol pump, Bodakdev,
                     Ahmedabad - 380054{" "}

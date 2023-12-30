@@ -45,7 +45,7 @@ const DetailProgram = () => {
 
                             <div className="wrapper__play-wrap position-relative mb-4">
                                 <div className="icon">
-                                    <img src="./../images/play_arrow_black_24dp 1.png" alt="" />
+                                    <img src="./../images/new/play_arrow_black_24dp 1.png" alt="" />
                                 </div>
                                 <img src="./../images/new/Video.png" className='vid' alt="" />
                             </div>

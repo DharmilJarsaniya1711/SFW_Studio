@@ -29,10 +29,10 @@ const Index = (props) => {
 
                   <p className="medium font__size--14 text__14-1042 color__white">Supported by:</p>
                   <div className="wrapper__brand d-flex align-items-center opacity__6">
-                    <img src="./../images/ad (1).png" alt="" />
-                    <img src="./../images/ad (2).png" alt="" />
-                    <img src="./../images/ad (3).png" alt="" />
-                    <img src="./../images/ad (4).png" alt="" />
+                    <img src="./../images/new/ad (1).png" alt="" />
+                    <img src="./../images/new/ad (2).png" alt="" />
+                    <img src="./../images/new/ad (3).png" alt="" />
+                    <img src="./../images/new/ad (4).png" alt="" />
                   </div>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const Index = (props) => {
                   </ul>
 
                   <div className="d-block">
-                    <img src="./../images/Line.png" className="my-4" alt="" />
+                    <img src="./../images/new/Line.png" className="my-4" alt="" />
                   </div>
 
                   <NavLink
@@ -130,7 +130,7 @@ const Index = (props) => {
                   </ul>
 
                   <div className="d-block">
-                    <img src="./../images/Line.png" className="my-4" alt="" />
+                    <img src="./../images/new/Line.png" className="my-4" alt="" />
                   </div>
 
                   <NavLink

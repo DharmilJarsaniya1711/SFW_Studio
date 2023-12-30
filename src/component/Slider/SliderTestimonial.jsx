@@ -51,12 +51,12 @@ const SliderTestimonial = () => {
                 <div className="items">
                     <div className="wrapper__card-testi position-relative">
                         <div className="d-flex align-items-start">
-                            <img src="./../images/quote-up.png" className='logo' alt="" />
+                            <img src="./../images/new/quote-up.png" className='logo' alt="" />
                             <div className='ml-2'>
                                 <p className='medium font__size--14 text__14-1024 color__gray-2 mb-2'>Member Review</p>
                                 <h5 className='normal font__size--24 text__24-1024 lh__4 mb-4'>Eget aliquet sit at lacinia. Magna consequat consectetur maecenas amet sagittis mi. Mattis cursus dolor amet quam commodo amet in sed dui. Risus risus sed sed lectus. </h5>
                                 <div className="d-flex align-items-center user">
-                                    <img src="./../images/Ellipse 1.png" alt="" />
+                                    <img src="./../images/new/Ellipse 1.png" alt="" />
                                     <div className='ml-2 text-left'>
                                         <h5 className='medium font__size--16 text__16-1024 mb-0'>Davis Rosser</h5>
                                         <p className='mb-0 normal font__size--14 text__14-1024'>Member</p>
@@ -69,12 +69,12 @@ const SliderTestimonial = () => {
                 <div className="items">
                     <div className="wrapper__card-testi position-relative">
                         <div className="d-flex align-items-start">
-                            <img src="./../images/quote-up.png" className='logo' alt="" />
+                            <img src="./../images/new/quote-up.png" className='logo' alt="" />
                             <div className='ml-2'>
                                 <p className='medium font__size--14 text__14-1024 color__gray-2 mb-2'>Member Review</p>
                                 <h5 className='normal font__size--24 text__24-1024 lh__4 mb-4'>Eget aliquet sit at lacinia. Magna consequat consectetur maecenas amet sagittis mi. Mattis cursus dolor amet quam commodo amet in sed dui. Risus risus sed sed lectus. </h5>
                                 <div className="d-flex align-items-center user">
-                                    <img src="./../images/Ellipse 1.png" alt="" />
+                                    <img src="./../images/new/Ellipse 1.png" alt="" />
                                     <div className='ml-2 text-left'>
                                         <h5 className='medium font__size--16 text__16-1024 mb-0'>Davis Rosser</h5>
                                         <p className='mb-0 normal font__size--14 text__14-1024'>Member</p>
@@ -87,12 +87,12 @@ const SliderTestimonial = () => {
                 <div className="items">
                     <div className="wrapper__card-testi position-relative">
                         <div className="d-flex align-items-start">
-                            <img src="./../images/quote-up.png" className='logo' alt="" />
+                            <img src="./../images/new/quote-up.png" className='logo' alt="" />
                             <div className='ml-2'>
                                 <p className='medium font__size--14 text__14-1024 color__gray-2 mb-2'>Member Review</p>
                                 <h5 className='normal font__size--24 text__24-1024 lh__4 mb-4'>Eget aliquet sit at lacinia. Magna consequat consectetur maecenas amet sagittis mi. Mattis cursus dolor amet quam commodo amet in sed dui. Risus risus sed sed lectus. </h5>
                                 <div className="d-flex align-items-center user">
-                                    <img src="./../images/Ellipse 1.png" alt="" />
+                                    <img src="./../images/new/Ellipse 1.png" alt="" />
                                     <div className='ml-2 text-left'>
                                         <h5 className='medium font__size--16 text__16-1024 mb-0'>Davis Rosser</h5>
                                         <p className='mb-0 normal font__size--14 text__14-1024'>Member</p>

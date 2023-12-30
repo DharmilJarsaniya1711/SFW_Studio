@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { LogoIcons } from "../Icons/Icons";
 
 const Footer = () => {
   return (
@@ -10,9 +9,6 @@ const Footer = () => {
           <div className="col-md-6 mb-4 mb-lg-0 col-lg-4">
             <div className="d-flex align-items-center mb-3">
               <img src="./../images/new/Logo_dark.svg" alt="" />
-
-              {/* <LogoIcons /> */}
-              {/* <span className="color__white font__size--20 text__20-1024 semi-bold ml-2">Bulk<span className="normal">ing</span></span> */}
             </div>
             <p className="normal font__size--16 text__16-1024 color__gray-3">
               Get fit, stay healthy, and live life on their terms without
@@ -76,26 +72,26 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <img src="./../images/Line@2x.png" className="w-100 mb-4" alt="" />
+        <img src="./../images/new/Line@2x.png" className="w-100 mb-4" alt="" />
         <div className="d-md-flex aligen-items-center justify-content-between position-relative">
           <p className="mb-0 normal font__size--16 text__16-1024 color__gray-3">
             © 2023 SFW Studio
           </p>
           <div className="wrapper__sosmed center d-flex align-items-center justify-content-md-center my-3 my-md-0">
             <a href="#!">
-              <img src="./../images/svg.png" alt="" />
+              <img src="./../images/new/svg.png" alt="" />
             </a>
             <a href="#!">
-              <img src="./../images/svg (1).png" alt="" />
+              <img src="./../images/new/svg (1).png" alt="" />
             </a>
             <a href="#!">
-              <img src="./../images/svg (2).png" alt="" />
+              <img src="./../images/new/svg (2).png" alt="" />
             </a>
             <a href="#!">
-              <img src="./../images/svg (3).png" alt="" />
+              <img src="./../images/new/svg (3).png" alt="" />
             </a>
             <a href="#!">
-              <img src="./../images/svg (4).png" alt="" />
+              <img src="./../images/new/svg (4).png" alt="" />
             </a>
           </div>
 

@@ -38,7 +38,7 @@ const Payment = () => {
                                 <input type="radio" name="payment" value="paypal" className="" />
                                 <div className="wrap">
                                     <div className="radio"></div>
-                                    <img src="./../images/Frame 162682.png" className="ml-3" alt="" />
+                                    <img src="./../images/new/Frame 162682.png" className="ml-3" alt="" />
                                 </div>
                             </div>
 
@@ -46,7 +46,7 @@ const Payment = () => {
                                 <input type="radio" name="payment" value="applepay" className="" />
                                 <div className="wrap">
                                     <div className="radio"></div>
-                                    <img src="./../images/ApplePay.png" className="ml-3" alt="" />
+                                    <img src="./../images/new/ApplePay.png" className="ml-3" alt="" />
                                 </div>
                             </div>
 

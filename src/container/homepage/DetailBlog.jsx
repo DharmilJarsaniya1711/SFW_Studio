@@ -19,16 +19,16 @@ const DetailBlog = () => {
                         <div className="col-md-4 mt-auto">
                             <div className="wrapper__sosmed-blog d-flex align-items-center justify-content-md-end">
                                 <a href="#!">
-                                    <img src="./../images/sos (1).png" alt="" />
+                                    <img src="./../images/new/sos (1).png" alt="" />
                                 </a>
                                 <a href="#!">
-                                    <img src="./../images/sos (4).png" alt="" />
+                                    <img src="./../images/new/sos (4).png" alt="" />
                                 </a>
                                 <a href="#!">
-                                    <img src="./../images/sos (3).png" alt="" />
+                                    <img src="./../images/new/sos (3).png" alt="" />
                                 </a>
                                 <a href="#!">
-                                    <img src="./../images/sos (2).png" alt="" />
+                                    <img src="./../images/new/sos (2).png" alt="" />
                                 </a>
                             </div>
                         </div>
@@ -62,13 +62,13 @@ const DetailBlog = () => {
 
                             <div className="wrapper__detail-blog-user">
                                 <div className="d-flex align-items-start justify-content-center">
-                                    <img src="./../images/quote-up.png" className='object-fit-content' alt="" />
+                                    <img src="./../images/new/quote-up.png" className='object-fit-content' alt="" />
                                     <div className="desc ml-3">
                                         <p className='medium font__size--14 text__14-1024 color__gray-3 mb-2'>Training Coach</p>
                                         <h3 className='normal font__size--24 text__24-1024 mb-4'>Eget aliquet sit at lacinia. Magna consequat consectetur maecenas amet sagittis mi. Mattis cursus dolor amet quam commodo amet in sed dui. Risus risus sed sed lectus. </h3>
 
                                         <div className="d-flex align-items-center user">
-                                            <img src="./../images/Ellipse 1.png" alt="" />
+                                            <img src="./../images/new/Ellipse 1.png" alt="" />
                                             <div className="ml-3">
                                                 <h5 className='medium font__size--16 text__16-1024 mb-1'>Wilson Dorwart</h5>
                                                 <p className='normal font__size--14 text__14-1024 mb-0'>Training Coach</p>
@@ -103,15 +103,15 @@ const DetailBlog = () => {
 
                                 <a href="#!" className='mb-4 color__black d-flex align-items-center justify-content-between w-100'>
                                     <h5 className='mb-0 medium font__size--20 text__20-1024'>Fitness</h5>
-                                    <img src="./../images/arrow-right (1).png" alt="" />
+                                    <img src="./../images/new/arrow-right (1).png" alt="" />
                                 </a>
                                 <a href="#!" className='mb-4 color__black d-flex align-items-center justify-content-between w-100'>
                                     <h5 className='mb-0 medium font__size--20 text__20-1024'>Health</h5>
-                                    <img src="./../images/arrow-right (1).png" alt="" />
+                                    <img src="./../images/new/arrow-right (1).png" alt="" />
                                 </a>
                                 <a href="#!" className='mb-4 color__black d-flex align-items-center justify-content-between w-100'>
                                     <h5 className='mb-0 medium font__size--20 text__20-1024'>Recipes</h5>
-                                    <img src="./../images/arrow-right (1).png" alt="" />
+                                    <img src="./../images/new/arrow-right (1).png" alt="" />
                                 </a>
                             </div>
                         </div>

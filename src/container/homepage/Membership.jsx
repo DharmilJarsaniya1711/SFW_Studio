@@ -15,65 +15,65 @@ const Membership = () => {
         },
         {
             title: "Access to online classes",
-            path_1: "./../images/rt (3).png",
-            path_2: "./../images/rt (3).png",
-            path_3: "./../images/rt (3).png",
+            path_1: "./../images/new/rt (3).png",
+            path_2: "./../images/new/rt (3).png",
+            path_3: "./../images/new/rt (3).png",
             type: "img",
         },
         {
             title: "Health & fitness guides",
-            path_1: "./../images/rt (3).png",
-            path_2: "./../images/rt (3).png",
-            path_3: "./../images/rt (3).png",
+            path_1: "./../images/new/rt (3).png",
+            path_2: "./../images/new/rt (3).png",
+            path_3: "./../images/new/rt (3).png",
             type: "img",
         },
         {
             title: "Full Warmup guide",
-            path_1: "./../images/rt (3).png",
-            path_2: "./../images/rt (3).png",
-            path_3: "./../images/rt (3).png",
+            path_1: "./../images/new/rt (3).png",
+            path_2: "./../images/new/rt (3).png",
+            path_3: "./../images/new/rt (3).png",
             type: "img",
         },
         {
             title: "Access video Link",
-            path_1: "./../images/rt (2).png",
-            path_2: "./../images/rt (3).png",
-            path_3: "./../images/rt (3).png",
+            path_1: "./../images/new/rt (2).png",
+            path_2: "./../images/new/rt (3).png",
+            path_3: "./../images/new/rt (3).png",
             type: "img",
         },
         {
             title: "Full diet plan",
-            path_1: "./../images/rt (2).png",
-            path_2: "./../images/rt (3).png",
-            path_3: "./../images/rt (3).png",
+            path_1: "./../images/new/rt (2).png",
+            path_2: "./../images/new/rt (3).png",
+            path_3: "./../images/new/rt (3).png",
             type: "img",
         },
         {
             title: "Nutritional support",
-            path_1: "./../images/rt (2).png",
-            path_2: "./../images/rt (3).png",
-            path_3: "./../images/rt (3).png",
+            path_1: "./../images/new/rt (2).png",
+            path_2: "./../images/new/rt (3).png",
+            path_3: "./../images/new/rt (3).png",
             type: "img",
         },
         {
             title: "Full customize plan",
-            path_1: "./../images/rt (2).png",
-            path_2: "./../images/rt (2).png",
-            path_3: "./../images/rt (3).png",
+            path_1: "./../images/new/rt (2).png",
+            path_2: "./../images/new/rt (2).png",
+            path_3: "./../images/new/rt (3).png",
             type: "img",
         },
         {
             title: "Daily progress check up",
-            path_1: "./../images/rt (2).png",
-            path_2: "./../images/rt (2).png",
-            path_3: "./../images/rt (3).png",
+            path_1: "./../images/new/rt (2).png",
+            path_2: "./../images/new/rt (2).png",
+            path_3: "./../images/new/rt (3).png",
             type: "img",
         },
         {
             title: "All Intermediate package",
-            path_1: "./../images/rt (2).png",
-            path_2: "./../images/rt (2).png",
-            path_3: "./../images/rt (3).png",
+            path_1: "./../images/new/rt (2).png",
+            path_2: "./../images/new/rt (2).png",
+            path_3: "./../images/new/rt (3).png",
             type: "img",
         },
     ]
@@ -164,7 +164,7 @@ const Membership = () => {
                                                     className='text-left normal'>
                                                     <div className="d-flex align-items-center">
                                                         <span className='medium font__size--18 text__18-1024'>{obj.title}</span>
-                                                        <img src="./../images/rt (1).png" className='ml-2' alt="" />
+                                                        <img src="./../images/new/rt (1).png" className='ml-2' alt="" />
                                                     </div>
                                                 </th>
                                                 <td>{obj.type == "text" ? obj.path_1 : <img src={obj.path_1} alt="" />}</td>

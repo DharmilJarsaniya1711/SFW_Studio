@@ -11,13 +11,13 @@ const CardTeam = (props) => {
                 <p className='normal font__size--14 text__14-1024 my-1'>{props.data.job}</p>
                 <div className="d-flex align-items-center justify-content-center">
                     <a href={props.data.facebook}>
-                        <img src="./../images/sos (1).png" alt="" />
+                        <img src="./../images/new/sos (1).png" alt="" />
                     </a>
                     <a href={props.data.linkdin} className='mx-2'>
-                        <img src="./../images/sos (3).png" alt="" />
+                        <img src="./../images/new/sos (3).png" alt="" />
                     </a>
                     <a href={props.data.twitter}>
-                        <img src="./../images/sos (4).png" alt="" />
+                        <img src="./../images/new/sos (4).png" alt="" />
                     </a>
                 </div>
             </div>

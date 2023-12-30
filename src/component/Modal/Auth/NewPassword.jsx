@@ -49,7 +49,7 @@ const NewPassword = (props) => {
                   placeholder="Enter your password"
                 />
                 <img
-                  src="./../images/eye-slash.png"
+                  src="./../images/new/eye-slash.png"
                   className="pointer"
                   onClick={() => setShowPassword(!showPassword)}
                   alt=""
@@ -68,7 +68,7 @@ const NewPassword = (props) => {
                   placeholder="Enter your password"
                 />
                 <img
-                  src="./../images/eye-slash.png"
+                  src="./../images/new/eye-slash.png"
                   className="pointer"
                   onClick={() => setShowPasswordNew(!showPasswordNew)}
                   alt=""
